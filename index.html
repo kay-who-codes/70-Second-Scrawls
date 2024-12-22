@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✏️ Six Second Scribbles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Six Second Scribbles</h1>
+        <div id="difficulty-selection">
+            <button class="difficulty-btn" id="normal" style="background-color: green;">Normal</button>
+            <button class="difficulty-btn" id="difficult" style="background-color: darkorange;">Tricky</button>
+            <button class="difficulty-btn" id="impossible" style="background-color: red;">Almost Impossible</button>
+        </div>
+        <div id="game-area" style="display: none;">
+            <h2 id="category"></h2>
+            <div id="prompts"></div>
+            <div id="timer">70</div>
+            <div id="time-up" style="display: none;">TIME UP</div>
+            <button id="go-back" style="display: none;">Go Back</button>
+
+            <!-- The "View Rules" Button -->
+            <button id="viewRulesBtn">View Rules</button>
+
+            <!-- The Modal -->
+            <div id="rulesModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div id="rulesContent"></div>
+                </div>
+            </div>            
+        </div>
+    </div>
+    <footer>
+        <button class="dark-mode-button" id="dark-mode-toggle">Toggle Dark Mode</button>
+    </footer>
+    <audio id="timer-sound" src="timer.mp3"></audio>
+    <audio id="flip-sound" src="flip.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
