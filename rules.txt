@@ -1,5 +1,9 @@
-Players take turns drawing a card from one of the three dificulty decks.
-The player drawing the card has 70 seconds to draw as many of the 10 prompts as they can.
-Once the timer is up, other players have to guess as many of the prompts as possible from the drawings.
+Draw cards from one of the three dificulty decks.
+
+You have 100 seconds to draw as many prompts as you can.
+
+Once the timer is up, other players have to guess as many of the prompts as possible from your drawings.
+
 The guesser is awarded a point for each correct guess.
+
 Take turns drawing and guessing until a player reaches a point-threshhold of your choosing.

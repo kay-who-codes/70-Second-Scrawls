@@ -2,3 +2,7 @@ App Update: 1
 Date of Update: 22 Dec 2024 @ 17:49
 Details: Created
 
+App Update: 2
+Date of Update: 15 Mar 2025 @ 10:37
+Details: Complete overhaul
+
